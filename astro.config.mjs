@@ -1,14 +1,18 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite';
+import react from '@astrojs/react';
 
-import react from "@astrojs/react";
-
-// https://astro.build/config
 export default defineConfig({
-  vite: {
-      plugins: [tailwindcss()],
+  server: {
+    host: true, // Permite conexiones externas
   },
-
-  integrations: [react()]
+  vite: {
+    server: {
+      host: true, // También en Vite
+      allowedHosts: true, // ¡Permite Cloudflare Tunnel!
+    },
+    plugins: [tailwindcss()],
+  },
+  integrations: [react()],
+  output: 'static'
 });
