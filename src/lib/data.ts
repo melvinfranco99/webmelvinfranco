@@ -144,19 +144,19 @@ export const projects = [
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
+    name: "Cybersecurity Diplomature",
+    issuer: "UCLA",
+    date: "2023",
     type: "International",
-    position: "Second Place",
+    position: "Outstanding",
   },
   {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
+    name: "Startup Project WAE",
+    issuer: "ActuaUPM",
+    date: "2022",
     type: "National",
-    position: "Second Runner-up",
-  },
+    position: "Top 10",
+  },/*
   {
     name: "Cisco Thingqbator Hackathon",
     issuer: "Cisco",
@@ -191,5 +191,5 @@ export const awards = [
     date: "Feb 2022",
     type: "National",
     position: "Most Impactful Hack",
-  },
+  },*/
 ];
