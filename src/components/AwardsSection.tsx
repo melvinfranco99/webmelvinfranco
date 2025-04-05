@@ -21,7 +21,7 @@ export default function AwardsSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {awards.map((award, index) => (
             <MotionWrapper key={award.name + award.date} delay={index * 0.1}>
-              <GlassCard className="p-4 dark:border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 flex flex-col h-full">
+              <GlassCard className="p-4 dark:border-green-500/10 hover:border-green-500/30 transition-all duration-300 flex flex-col h-full">
                 <div className="flex items-center mb-2">
                   <motion.div
                     whileHover={{ rotate: 20 }}

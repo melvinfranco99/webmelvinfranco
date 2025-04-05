@@ -47,15 +47,15 @@ export default function ExperienceSection() {
                 index={index}
               >
                 <motion.div
-                  className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
+                  className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-green-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
                   <div className="flex items-center mb-3">
-                    <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
-                      <Briefcase className="h-4 w-4 text-purple-500" />
+                    <div className="h-6 w-6 flex items-center justify-center rounded-full bg-green-500/10 mr-2">
+                      <Briefcase className="h-4 w-4 text-green-500" />
                     </div>
                     <h4 className="text-sm font-medium">Key Achievements</h4>
                   </div>
@@ -77,7 +77,7 @@ export default function ExperienceSection() {
 
                   {hasMoreThanFive && (
                     <div
-                      className="mt-3 flex items-center gap-1 text-sm text-purple-500 hover:underline cursor-pointer"
+                      className="mt-3 flex items-center gap-1 text-sm text-green-500 hover:underline cursor-pointer"
                       onClick={() => setIsExpanded(!isExpanded)}
                     >
                       {isExpanded ? (

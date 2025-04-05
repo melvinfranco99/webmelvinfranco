@@ -120,7 +120,7 @@ export const skills = {
 export const projects = [
   {
     title: "WAE - Web Accesibility for Evereyone",
-    github: "#",
+    github: "",
     description: [
       "Start-up project of ActuaUPM",
       "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
@@ -134,10 +134,10 @@ export const projects = [
   },
   {
     title: "CryptoVoto",
-    github: "#",
+    github: "",
     description: [
-      "",
-      ""
+      "It is a decentralized application project focused on digital voting through the Blockchain.",
+      "The Ethereum network or Ethereum - based networks(with a portion of Chainlink) are used."
     ],
   },
 ];
@@ -145,7 +145,7 @@ export const projects = [
 export const awards = [
   {
     name: "Cybersecurity Diplomature",
-    issuer: "UCLA",
+    issuer: "UCLEA",
     date: "2023",
     type: "International",
     position: "Outstanding",

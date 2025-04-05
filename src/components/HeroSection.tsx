@@ -107,11 +107,11 @@ export default function HeroSection() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-green-500 to-green-200 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
                 src="/profile.jpg"
                 alt="Profile"
-                className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
+                className="w-48 md:w-60 rounded-full relative ring-2 ring-green-700/50"
                 style={{ objectFit: "cover" }}
               />
             </div>
@@ -119,7 +119,7 @@ export default function HeroSection() {
         </motion.div>
 
         <MotionWrapper>
-          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
+          <div className="bg-gradient-to-r from-green-600/10 to-green-400/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-green-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               🚀 Passionate cybersecurity and blockchain developer with a dynamic skill set bridging secure system design and decentralized technologies. I thrive on tackling intricate security challenges and building resilient, scalable blockchain solutions. With a proactive mindset and a strong foundation in cryptography, smart contracts, and threat modeling, I blend technical precision with innovative thinking. My approach is rooted in continuous learning, adaptability, and a drive to build trust in digital ecosystems—whether working solo or as part of a cross-functional team.
